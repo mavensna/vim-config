@@ -47,3 +47,9 @@ autocmd filetype cpp nnoremap <F4> :w <bar> exec '!clear && g++ '.shellescape('%
 " inoremap { {}<left>
 " inoremap {<CR> {<CR>}<ESC>O
 " inoremap {;<CR> {<CR>};<ESC>O
+
+" tab char config
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
